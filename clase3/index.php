@@ -11,8 +11,8 @@
         echo "El monto solicitado tiene que ser entre $/1000 y $/72000";
         exit;
     }
-   elseif($cuotas < 3 || $cuotas > 32){
-        echo "Las cuotas deben ser entre 3 y 32";
+   elseif($cuotas < 3 || $cuotas > 37){
+        echo "Las cuotas deben ser entre 3 y 36";
         exit;
     }
     elseif($tasa == 5 || $tasa == 10 || $tasa == 15 || $tasa == 20){

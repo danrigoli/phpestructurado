@@ -58,6 +58,7 @@
         $cuotasm[$i] = $monto_deuda / $cuotas;
     }    
     echo "<hr>";
+    
     foreach ($cuotasm as $index => $valor) {
         echo "<h2>Nro. de cuota:" . $index . " Monto a pagar:" . $cuotasm[$index] . "</h2>";
         echo "<hr>";
